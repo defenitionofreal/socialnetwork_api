@@ -1,7 +1,7 @@
 # starnavi_test
 Social Network API
-
-`import requests as r
+```
+import requests as r
 
 # signup new user
 register = r.post('http://127.0.0.1:8000/api/v1/register/', json={'email': 'test@email.com', 'username': 'testuser', 'password': 'testpass', 'password2': 'testpass'})
@@ -44,5 +44,5 @@ print('Users analytics:\n', i.json())
 
 # posts likes analytics
 i = r.get('http://127.0.0.1:8000/api/v1/posts/analytics/date_from=2021-05-26&date_to=2021-05-27', headers=h)
-print('Posts likes analytics:\n', i.json())``
+print('Posts likes analytics:\n', i.json())
 ```
