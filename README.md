@@ -1,4 +1,3 @@
-# starnavi_test
 Social Network API
 ```
 import requests as r
